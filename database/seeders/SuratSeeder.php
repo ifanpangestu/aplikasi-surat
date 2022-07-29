@@ -16,7 +16,7 @@ class SuratSeeder extends Seeder
     public function run()
     {
         Surat::create([
-            'pengirim' => 'embik',
+            'pengirim' => 'shohib',
             'isi_surat' => 'Halo poh',
             'penerima' => 'ifan',
             'user_id' => 2
