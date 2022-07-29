@@ -23,3 +23,6 @@ $router->get('/user/{id}', ['uses' => 'UserController@show']);
 $router->get('/surat', ['uses' => 'SuratController@index']);
 $router->get('/surat/{id}', ['uses' => 'SuratController@show']);
 
+
+$router->post('/register', ['uses' => 'AuthController@register']);
+$router->post('/login', ['uses' => 'AuthController@login']);

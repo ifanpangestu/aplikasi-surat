@@ -19,7 +19,7 @@ class SuratSeeder extends Seeder
             'pengirim' => 'sohib',
             'isi_surat' => 'Halo poh',
             'penerima' => 'ifan',
-            'user_id' => '2'
+            'user_id' => 2
         ]);
     }
 }
